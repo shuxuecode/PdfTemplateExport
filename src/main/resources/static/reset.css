@@ -1,0 +1,50 @@
+﻿/**************************************************
+* 消除默认样式
+* 快捷class
+---------------------------------------------------
+* 史宇飞
+* 2015.10.8
+* 1.0
+---------------------------------------------------
+*快捷class文档:
+ 
+【clearfix 清除浮动】          .clearfix 
+【float 浮动】                 .f+方向  (l | r)
+【display 块类型】 			   .dib行内快 .db块 .di行内 .dn隐藏
+【position 定位】 			   .psa绝对定位 .psr相对定位 .psf浮动定位
+【text-align 行内对齐】        .ta+方向 (l | c | r)
+【cursor 鼠标箭头】            .cpt手型 .cdf箭头
+【font-size 字号】      	   .fs+字号 (8~28)
+【font-weight 字体加粗/默认】  .fwb加粗 .fwn默认
+【font-style 字体斜体/默认】   .fsi斜体 .fsn默认
+【text-decoration 字体加线】   .tdu下划线 .tdu顶划线 .tdl删除线
+【font-family 字体】 		   .ffs宋体  .ffm微软雅黑
+【overflow 超出隐藏】 	 	   .ofh超出隐藏
+【word-wrap强制换行】 		   .wwb强制换行
+【margin 外边距】			   .mg+数字 (5的倍数 0~100)
+【margin-top 上外边距】		   .mt+数字 (5的倍数 0~100)
+【margin-right 右外边距】	   .mr+数字 (5的倍数 0~100)
+【margin-bottom 下外边距】	   .mb+数字 (5的倍数 0~100)
+【margin-left 左外边距】	   .ml+数字 (5的倍数 0~100)
+【padding 内边距】			   .pd+数字 (5的倍数 0~100)
+【padding-top 上内边距】	   .pt+数字 (5的倍数 0~100)
+【padding-right 右内边距】	   .pr+数字 (5的倍数 0~100)
+【padding-bottom 下内边距】	   .pb+数字 (5的倍数 0~100)
+【padding-left 左内边距】	   .pl+数字 (5的倍数 0~100)
+***************************************************/
+@charset "utf-8";
+
+/* 禁用长按文字复制 */
+/* * {
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+} */
+
+/* 禁用图片长按复制 */
+/* img { pointer-events: none; } */
+
+body,button,html,input,select,body,code,dd,div,dl,dt,fieldset,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{margin:0;padding:0;border: 0;}address,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}table{border-collapse:collapse;border-spacing:0}caption,th{text-align:left;font-weight:400}abbr,body,fieldset,html,iframe,img{border:0}html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}em,i{font-style:normal}li,ol,ul{list-style:none}h1,h2,h3,h4,h5,h6,small{font-size:100%;font-weight:400}textarea{overflow:auto;resize:none}label{cursor:default}a,button{cursor:pointer}a,a:hover{text-decoration:none}iframe{display:block}input[type=submit]{border:none}button,input,select,textarea{font-size:100%}button[disabled],html input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{padding:0;box-sizing:border-box;vertical-align:-2px;margin:0 3px 0 0;cursor:pointer}.inline-block{display:inline-block;zoom:1}::-webkit-input-placeholder{color:#999}:-moz-placeholder,::-moz-placeholder{color:#999}:-ms-input-placeholder{color:#999}a{outline:0}.clearfix:after,.clearfix:before{content:'';display:block}.clearfix:after{clear:both}.fl{float:left}.fr{float:right}.tal{text-align:left}.tac{text-align:center}.tar{text-align:right}.fs8{font-size:8px}.fs10{font-size:10px}.fs12{font-size:9pt}.fs14{font-size:14px}.fs16{font-size:1pc}.fs18{font-size:18px}.fs20{font-size:20px}.fs22{font-size:22px}.fs24{font-size:24px}.fs26{font-size:26px}.fs28{font-size:28px}.cpt{cursor:pointer}.cdf{cursor:default}.fwb{font-weight:700}.fwn{font-weight:400}.fsi{font-style:italic}.fsn{font-style:normal}.tdu{text-decoration:underline}.tdo{text-decoration:overline}.tdl{text-decoration:line-through}.dib{display:inline-block}.db{display:block}.di{display:inline}.dn{display:none}.psa{position:absolute}.psr{position:relative}.psf{position:fixed}.ffs{font-family:simsun}.ffm{font-family:Microsoft Yahei}.ofh{overflow:hidden}.wwb{word-wrap:break-word}.mg0{margin:0}.mg5{margin:5px}.mg10{margin:10px}.mg15{margin:15px}.mg20{margin:20px}.mg25{margin:25px}.mg30{margin:30px}.mg35{margin:35px}.mg40{margin:40px}.mg45{margin:45px}.mg50{margin:50px}.mg55{margin:55px}.mg60{margin:60px}.mg65{margin:65px}.mg70{margin:70px}.mg75{margin:75px}.mg80{margin:5pc}.mg85{margin:85px}.mg90{margin:90px}.mg95{margin:95px}.mg100{margin:75pt}.mt0{margin-top:0}.mt5{margin-top:5px}.mt10{margin-top:10px}.mt15{margin-top:15px}.mt20{margin-top:20px}.mt25{margin-top:25px}.mt30{margin-top:30px}.mt35{margin-top:35px}.mt40{margin-top:40px}.mt45{margin-top:45px}.mt50{margin-top:50px}.mt55{margin-top:55px}.mt60{margin-top:60px}.mt65{margin-top:65px}.mt70{margin-top:70px}.mt75{margin-top:75px}.mt80{margin-top:5pc}.mt85{margin-top:85px}.mt90{margin-top:90px}.mt95{margin-top:95px}.mt100{margin-top:75pt}.mr0{margin-right:0}.mr5{margin-right:5px}.mr10{margin-right:10px}.mr15{margin-right:15px}.mr20{margin-right:20px}.mr25{margin-right:25px}.mr30{margin-right:30px}.mr35{margin-right:35px}.mr40{margin-right:40px}.mr45{margin-right:45px}.mr50{margin-right:50px}.mr55{margin-right:55px}.mr60{margin-right:60px}.mr65{margin-right:65px}.mr70{margin-right:70px}.mr75{margin-right:75px}.mr80{margin-right:5pc}.mr85{margin-right:85px}.mr90{margin-right:90px}.mr95{margin-right:95px}.mr100{margin-right:75pt}.mb0{margin-bottom:0}.mb5{margin-bottom:5px}.mb10{margin-bottom:10px}.mb15{margin-bottom:15px}.mb20{margin-bottom:20px}.mb25{margin-bottom:25px}.mb30{margin-bottom:30px}.mb35{margin-bottom:35px}.mb40{margin-bottom:40px}.mb45{margin-bottom:45px}.mb50{margin-bottom:50px}.mb55{margin-bottom:55px}.mb60{margin-bottom:60px}.mb65{margin-bottom:65px}.mb70{margin-bottom:70px}.mb75{margin-bottom:75px}.mb80{margin-bottom:5pc}.mb85{margin-bottom:85px}.mb90{margin-bottom:90px}.mb95{margin-bottom:95px}.mb100{margin-bottom:75pt}.ml0{margin-left:0}.ml5{margin-left:5px}.ml10{margin-left:10px}.ml15{margin-left:15px}.ml20{margin-left:20px}.ml25{margin-left:25px}.ml30{margin-left:30px}.ml35{margin-left:35px}.ml40{margin-left:40px}.ml45{margin-left:45px}.ml50{margin-left:50px}.ml55{margin-left:55px}.ml60{margin-left:60px}.ml65{margin-left:65px}.ml70{margin-left:70px}.ml75{margin-left:75px}.ml80{margin-left:5pc}.ml85{margin-left:85px}.ml90{margin-left:90px}.ml95{margin-left:95px}.ml100{margin-left:75pt}.pd0{padding:0}.pd5{padding:5px}.pd10{padding:10px}.pd15{padding:15px}.pd20{padding:20px}.pd25{padding:25px}.pd30{padding:30px}.pd35{padding:35px}.pd40{padding:40px}.pd45{padding:45px}.pd50{padding:50px}.pd55{padding:55px}.pd60{padding:60px}.pd65{padding:65px}.pd70{padding:70px}.pd75{padding:75px}.pd80{padding:5pc}.pd85{padding:85px}.pd90{padding:90px}.pd95{padding:95px}.pd100{padding:75pt}.pt0{padding-top:0}.pt5{padding-top:5px}.pt10{padding-top:10px}.pt15{padding-top:15px}.pt20{padding-top:20px}.pt25{padding-top:25px}.pt30{padding-top:30px}.pt35{padding-top:35px}.pt40{padding-top:40px}.pt45{padding-top:45px}.pt50{padding-top:50px}.pt55{padding-top:55px}.pt60{padding-top:60px}.pt65{padding-top:65px}.pt70{padding-top:70px}.pt75{padding-top:75px}.pt80{padding-top:5pc}.pt85{padding-top:85px}.pt90{padding-top:90px}.pt95{padding-top:95px}.pt100{padding-top:75pt}.pr0{padding-right:0}.pr5{padding-right:5px}.pr10{padding-right:10px}.pr15{padding-right:15px}.pr20{padding-right:20px}.pr25{padding-right:25px}.pr30{padding-right:30px}.pr35{padding-right:35px}.pr40{padding-right:40px}.pr45{padding-right:45px}.pr50{padding-right:50px}.pr55{padding-right:55px}.pr60{padding-right:60px}.pr65{padding-right:65px}.pr70{padding-right:70px}.pr75{padding-right:75px}.pr80{padding-right:5pc}.pr85{padding-right:85px}.pr90{padding-right:90px}.pr95{padding-right:95px}.pr100{padding-right:75pt}.pb0{padding-bottom:0}.pb5{padding-bottom:5px}.pb10{padding-bottom:10px}.pb15{padding-bottom:15px}.pb20{padding-bottom:20px}.pb25{padding-bottom:25px}.pb30{padding-bottom:30px}.pb35{padding-bottom:35px}.pb40{padding-bottom:40px}.pb45{padding-bottom:45px}.pb50{padding-bottom:50px}.pb55{padding-bottom:55px}.pb60{padding-bottom:60px}.pb65{padding-bottom:65px}.pb70{padding-bottom:70px}.pb75{padding-bottom:75px}.pb80{padding-bottom:5pc}.pb85{padding-bottom:85px}.pb90{padding-bottom:90px}.pb95{padding-bottom:95px}.pb100{padding-bottom:75pt}.pl0{padding-left:0}.pl5{padding-left:5px}.pl10{padding-left:10px}.pl15{padding-left:15px}.pl20{padding-left:20px}.pl25{padding-left:25px}.pl30{padding-left:30px}.pl35{padding-left:35px}.pl40{padding-left:40px}.pl45{padding-left:45px}.pl50{padding-left:50px}.pl55{padding-left:55px}.pl60{padding-left:60px}.pl65{padding-left:65px}.pl70{padding-left:70px}.pl75{padding-left:75px}.pl80{padding-left:5pc}.pl85{padding-left:85px}.pl90{padding-left:90px}.pl95{padding-left:95px}.pl100{padding-left:75pt}

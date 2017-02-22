@@ -13,12 +13,15 @@ public class UtilTest {
 		
 		data.put("title", "你的名字");
 		
-		FileOutputStream out = new FileOutputStream(new File("5.pdf"));
+		FileOutputStream out = new FileOutputStream(new File("e://5.pdf"));
 		
 //		PDFTemplateUtil pdfUtil = new PDFTemplateUtil();
 //		pdfUtil.createPDF(data, out);
 		
 		MyPdfUtil myPdf = new MyPdfUtil();
+		
+		data.put("staticPath", myPdf.getClass().getResource("/").getPath() + "/static");
+		
 		myPdf.createPDF(data, out);
 		
 	}

@@ -1,5 +1,10 @@
 package com.zsx.pdfTemplate;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileReader;
+import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.StringWriter;
 import java.util.Locale;
@@ -78,7 +83,19 @@ public class PDFTemplateUtil {
 			template.process(data, writer);
 			writer.flush();
 			
+			
+			File file = new File("E:\\[]201702\\Noname2.html");
+			BufferedReader br = new BufferedReader(new FileReader(file));
+			StringBuilder result = new StringBuilder();
+			String s = null;
+            while((s = br.readLine())!=null){//使用readLine方法，一次读一行
+                result.append(System.lineSeparator()+s);
+            }
+            br.close(); 
+			    
+			
 			String html = writer.toString();
+			html = result.toString();
 			// 把html代码传入渲染器中
 			renderer.setDocumentFromString(html);
 

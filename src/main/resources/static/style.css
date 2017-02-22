@@ -1,0 +1,237 @@
+﻿@charset "utf-8";
+
+body {
+	padding: 50px 0;
+	font-size: 12pt;
+	line-height: 150%;
+}
+
+h3 {
+	font-size: 24.0pt;
+    font-family: '黑体';
+    font-weight: bold;
+    text-align: center;
+}
+
+h4 {
+	background-color: #B32509;
+	color: #fff;
+	padding: 8px 20px;
+	margin-bottom: 30px;
+}
+
+h5 {
+	border-bottom: 1px solid #000;
+	padding: 8px 10px;
+	margin-bottom: 10px;
+}
+
+h5>i {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-right: 10px;
+	background-color: #B32509;
+}
+
+.page-title {
+	padding-bottom: 168px;
+}
+
+.word-page {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+    max-width: 795px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    -moz-box-shadow: 0 0 10px 5px #888;
+    -webkit-box-shadow: 0 0 10px 5px #888;
+    box-shadow: 0 0 10px 5px #888;
+    background-color: #FFF;
+}
+
+.center {
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.number {
+	font-size: 14.0pt;
+    font-family: '宋体';
+    text-align: right;
+    padding-bottom: 200px;
+}
+
+.explain {
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 160px;
+}
+
+.statement {
+	padding-bottom: 150px;
+}
+
+.statement p {
+	text-indent:2em;
+	margin-bottom: 10px;
+}
+
+.catalog {
+	margin-bottom: 200px;
+}
+
+.catalog li {
+	margin-bottom: 30px;
+}
+
+.catalog div {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #D99694;
+	color: #fff;
+	border:4px solid #fff;
+	-webkit-box-shadow: 0 0 5px 2px #888;
+    box-shadow: 0 0 5px 2px #888;
+}
+
+.catalog p {
+	width: 60%;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 20px;
+	border-bottom: 1px solid #B32509;
+}
+
+.catalog div,
+.catalog p {
+	display: inline-block;
+}
+
+.basicAbstract {
+	font-size: 12pt;
+	margin-bottom: 200px;
+}
+
+.basicAbstract > *{
+	width: 48%;
+	padding: 1%;
+}
+
+.financeGrade {
+	text-align: center;
+	width: 100%;
+	border-top:1px solid #000;
+	border-left:1px solid #000;
+	margin: 10px 0;
+}
+
+.financeGrade td {
+	border-right:1px solid #000;
+	border-bottom:1px solid #000;
+}
+
+.financeDetails {
+	width: 100%;
+}
+
+.financeDetails td {
+	width: 50%;
+	border-bottom: 1px solid #7F7F7F;
+}
+
+.financeDetails td.title {
+	background-color: #B32509;
+	color:#fff;
+	padding-left: 10px;
+}
+
+.rule table {
+	width: 100%;
+	border-top:1px solid #000;
+	border-left:1px solid #000;
+	text-align: center;
+}
+
+.rule table td {
+	border-right:1px solid #000;
+	border-bottom:1px solid #000;
+}
+
+.financialIndices p {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.financialIndices p i {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #CCC;
+	margin-right: 10px;
+	border-radius: 50%;
+}
+
+.financialIndices li {
+	width: 33%;
+	float: left;
+}
+
+.panel  {
+	margin: 20px;
+	border: 1px solid #ccc;
+	padding: 20px;
+	-webkit-box-shadow: 0 0 5px 2px #888;
+    box-shadow: 0 0 5px 2px #888;
+}
+
+.panel p {
+	margin-bottom: 20px;
+}
+
+.panel>div {
+	text-align: center;
+}
+
+.panel .fl,
+.panel .fr {
+	width: 49%;
+}
+
+.panel .fl {
+	border-right: 1px solid #ccc;
+}
+
+.panel .t {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.commodity-chartList {
+	font-size: 12pt;
+}
+
+.commodity-chartList>div {
+	width: 50%;
+}
+
+.gradeNotes {
+	margin-bottom: 200px;
+}
+
+.gradeNotes table {
+	margin: 20px 0;
+}
+
+.gradeNotes p {
+	text-indent:2em;
+	margin-bottom: 20px;
+}
